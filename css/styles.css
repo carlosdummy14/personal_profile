@@ -1,0 +1,143 @@
+/*
+$color1: rgba(38, 109, 211, 1);
+$color2: rgba(52, 64, 85, 1);
+$color3: rgba(0, 0, 0, 1);
+$color4: rgba(191, 215, 234, 1);
+$color5: rgba(145, 174, 193, 1);
+*/
+
+* {
+   margin: 0;
+   font-family: 'Roboto Slab', serif;
+}
+
+body {
+   background: white;
+
+}
+
+a {
+   text-decoration: none;
+}
+
+table {
+   margin-left: 40px;
+}
+
+h3 {
+   color: rgba(52, 64, 85, 1);
+}
+
+h1 {
+   color: white;
+   font-size: 40px;
+}
+
+.header {
+   display: none;
+   background: black;
+   color: white;
+}
+
+.menu ul {
+   list-style: none;
+}
+
+.menu li a{
+   display: inline-block;
+   color: white;
+}
+
+.container_portada {
+   height: 250px;
+   background-color: rgba(38, 109, 211, 1);
+   background: url("../img/textura-azul-del-grunge-2002933.jpg");
+   text-align: center;
+}
+
+.texto_portada {
+  position: relative;
+  top: 25px;
+}
+
+.foto_portada {
+   height: 200px;
+   display: inline-block;
+   position: relative;
+   top: 50px;
+   /*border: 2px solid rgba(38, 109, 211, 1);*/
+   border-radius: 50%;
+}
+
+.foto {
+   width: 200px;
+   border-radius: 50%;
+
+}
+
+.container {
+   background: white;
+   text-align: center;
+   height: 100vh;
+   max-width: 800px;
+   margin: 0 auto;
+   font-weight: 700;
+}
+
+.cuadro_profile {
+   align-items: center;
+   padding-top: 55px;
+}
+
+.foto_lado { 
+   height: 300px;
+   margin-right: 40px;
+   transition: 1s;
+}
+
+.foto_lado_marco:hover img {
+}
+
+.skills {
+   display: flex;
+   justify-content: space-between;
+}
+
+.skills tr {
+   text-align: left;
+   height: 30px;
+}
+
+.tdTexto {
+   border-bottom: 1px dotted black;
+}
+
+.star {
+   display: inline-block;
+   font-size: 30px;
+   color: #00FF00;
+}
+.star1:after {
+   content: "★";
+}
+.star2:after {
+   content: "★ ★";
+}
+.star3:after {
+   content: "★ ★ ★";
+}
+.star4:after {
+   content: "★ ★ ★ ★";
+}
+.star5:after {
+   content: "★ ★ ★ ★ ★";
+}
+
+.general_info {
+   display: inline-block;
+   background-color: rgba(0, 0, 0, 1);;
+   border-radius: 5px;
+   color: white;
+   margin: 10px;
+   padding: 5px;
+}
